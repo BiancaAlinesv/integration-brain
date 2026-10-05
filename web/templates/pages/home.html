@@ -1,0 +1,44 @@
+{{ define "content" }}
+
+<section>
+    <h2 class="text-3xl font-bold">Contral de integrações de Dados</h2>  
+
+    <p class="mt-2 text-gray-600">
+        Consulte e organize informações sobre integrações de dados
+    </p>
+
+    <div class="mt-8">
+        <h3 class="text-lg font-semibold"> Integrações </h3>
+
+        <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div class="border border-gray-200 rounded-lg p-6">
+            <h4 class="text-base font-semibold"> Nova Integração</h4>
+
+            <p class="mt-2 text-sm text-gray-600">
+                Configure sua nova integração de dados aqui.
+            </p>
+
+            <a href="/integracoes/nova" 
+                class="inline-block mt-4 bg-gray-900 text-white py-2 px-4 rounded-md text-sm hover:bg-gray-700 transition-colors">
+                Nova Integração
+            </a>
+        </div>
+
+        <div class="border border-gray-200 rounded-lg p-6">
+            <h4 class="text-base font-semibold"> Integrações existentes</h4>
+
+            <p class="mt-2 text-sm text-gray-600">
+                Consulte e gerencie as integrações cadastradas.
+            </p>
+
+            <a href="/integracoes" 
+                class="inline-block mt-4 bg-gray-900 text-white px-4 py-2 rounded-md text-sm hover:bg-gray-700 transition-colors">
+                Ver Integrações
+            </a>
+        </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
+

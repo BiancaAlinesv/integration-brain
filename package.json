@@ -1,0 +1,16 @@
+{
+  "name": "integration-brain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "tailwindcss -i ./web/assets/css/input.css -o ./web/static/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
